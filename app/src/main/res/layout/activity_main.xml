@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cruz.sugarapplication.Activities.MainActivity">
+
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="200dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:padding="2dp"
+        android:layout_gravity="center"
+        android:src="@drawable/bg_login" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="monospace"
+        android:text="Login with Sugar"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    <EditText
+        android:id="@+id/lg_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_person_black"
+        android:textSize="15sp"
+        android:inputType="text"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:drawablePadding="15dp"
+        android:fontFamily="monospace"
+        android:hint="Ingrese su email" />
+
+    <EditText
+        android:id="@+id/lg_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_lock_outline_black"
+        android:textSize="15sp"
+        android:inputType="textPassword"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:drawablePadding="15dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="monospace"
+        android:hint="Ingrese su contraseña" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_btn"
+        android:fontFamily="monospace"
+        android:text="Ingresar/Registrar"
+        android:onClick="goLogin"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>
+

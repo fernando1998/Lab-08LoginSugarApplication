@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SugarApplication</string>
+    <string name="register_fullname">Inserte su nombre completo:</string>
+    <string name="register_email">Inserte su Email:</string>
+    <string name="register_password">Ingrese su contraseña:</string>
+    <string name="register_save">REGISTRAR</string>
+    <string name="app_ifo_usu">Informacion del Usuario:</string>
+    <string name="app_tip">Tip: Si desea ver los cambios al configurar la cuenta haga click en la opcion Perfil, que se encuentra en el menu.(Letra, Username, Password)</string>
+
+
+
+    <string-array name="listArray">
+        <item>droidSerifBoldItalic</item>
+        <item>CaviarDreams</item>
+        <item>RobothoBlackItali</item>
+    </string-array>
+    <string-array name="listValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="listValues2">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="listArrayTheme">
+        <item>Dark</item>
+        <item>Light</item>
+        <item>Other</item>
+    </string-array>
+</resources>
